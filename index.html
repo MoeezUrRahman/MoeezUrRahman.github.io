@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moeez's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>  
+    <header class="header">
+        <a href="#home" class="logo" id="name">Moeez Ur Rahman</a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#timeline" class="nav-link">Timeline</a>
+            <a href="#project" class="nav-link">Projects</a>
+            <a href="#cont" class="nav-link">Contact Me</a>
+        </nav>
+    </header>
+    
+
+    <section class="home" id="home">
+        <video class="video-background" id="vid" autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        
+        <div class="home-content">
+            <h1><span class="span-text">Moeez Ur Rahman</span></h1>
+            <h3  class="typing-text"><span></span></h3>
+            <div class="buttons">
+                <a href="https://github.com/MoeezUrRahman" target="_blank">Visit Github</a>
+                <a href="https://drive.google.com/file/d/1zgzmr_1u-l_iuUdjFTF9gv1D-0phJeJZ/view?usp=drive_link"
+                    target="_blank">Open CV</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="ender">
+
+    <section id="timeline" class="timeline">
+        <h3 class="journey">Timeline Of Experience and Projects</h3>
+        <div class="horizontol-line"></div>
+
+        <div class="box">
+            <div class="vertical-line">
+                <img class="image" src="python.png">
+                <p class="timeline-text">OpenCV Face Detector 2022</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="java.png">
+                <p class="timeline-text">Equippi 2023</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="work-experience.png">
+                <p class="timeline-text">CMO at BioMagna 2024</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="react.png">
+                <p class="timeline-text">Film Sorted 2024</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="work-experience.png">
+                <p class="timeline-text"> Data Engineering Intern at Hubco 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="ender">
+
+    <section class="projects" id="project">
+        <h3 class="heading">Projects</h3>
+        <div class="container">
+            <div class="project-card">
+                <img src="FilmSorted.png" alt="">
+                <hr class="line">
+                <p class="name">FilmSorted: ReactJS, NodeJS, ExpressJS, CSS, MSSQL</p>
+                <p class="one-line">Discover details about your best movies and find information </p>
+                <div class="github-button">
+                    <a href="https://github.com/MoeezUrRahman/FilmSorted.git" target="_blank">Visit Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="SMS.png" alt="">
+                <hr class="line">
+                <p class="name">Sports Management System: JavaSwing, Firebase</p>
+                <p class="one-line">Administrative end to reserve and return equipment</p>
+                <div class="github-button">
+                    <a href="https://github.com/MoeezUrRahman/Sports-Management-System.git" target="_blank">Visit Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="OpenCV.png" alt="">
+                <hr class="line">
+                <p class="name">OpenCV Face Detector: OpenCV Python</p>
+                <p class="one-line">Train the AI model on images and identify faces along with names</p>
+                <div class="github-button">
+                    <a href="https://github.com/MoeezUrRahman/OpenCV-FaceDetector.git" target="_blank">Visit Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="ender">
+    <section class="contact" id="cont">
+        <div class="social-media">
+            <h3>Contact Me</h3>
+            <a href="https://www.linkedin.com/in/khawaja-moeez-ur-rahman-455b1027b/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/MoeezUrRahman" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=khawajamoeez2004@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+            <a href="https://www.instagram.com/km._ur/?next=%2F" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+
+    </section>
+
+    <script>
+        if ('scrollRestoration' in history) {
+          history.scrollRestoration = 'manual';
+        }
+      
+        window.addEventListener('beforeunload', function() {
+          window.scrollTo(0, 0);
+        });
+      
+        window.addEventListener('DOMContentLoaded', function() {
+          setTimeout(function() {
+            window.scrollTo(0, 0);
+          }, 100); // Ensure the page is fully rendered
+        });
+      </script>
+      
+      
+</body>
+
+</html>
